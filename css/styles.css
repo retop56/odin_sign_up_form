@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: #d8dae4;
+  --logo-box-bg-color: rgba(255, 255, 255, 0.12);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,14 +12,28 @@
 
 body {
   height: 100vh;
+  background-color: var(--main-bg-color);
 }
 
 .logo-sidebar {
   width: 33.4375rem;
   height: 100%;
-  background-color: black;
   background-image: url(../jp-valery-xvZmhl-XV8c-unsplash.jpg);
   background-size: cover;
   background-position: 27%;
-  border: 2px solid red;
+}
+
+.logo-box {
+  position: relative;
+  top: 17%;
+  width: 100%;
+  height: 18%;
+  background-color: var(--logo-box-bg-color);
+  backdrop-filter: saturate(300%) blur(0.185rem);
+  border-radius: 0.3125rem;
+  color: white;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
