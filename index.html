@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles.css"
-    />
-    <title>Sign-Up Form</title>
-  </head>
-  <body>
-    <div class="logo-sidebar">
-      <div class="logo-box">
-        <p class="logo-text">Generic Flight School</p>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Sign-Up Form</title>
+</head>
+
+<body>
+  <aside class="logo-sidebar">
+    <div class="logo-box">
+      <p class="logo-text">Generic Flight School</p>
     </div>
-  </body>
+  </aside>
+  <main>
+    <h1 class="heading-text">
+      Here at Generic Flight School, we train the next generation of aviators.
+      Are you ready to enter the skies? Fill out this form and we'll contact
+      you with more information on how to get started!
+    </h1>
+
+    <form>
+      <div class="input-box">
+
+        <h2 class="text-labels">First Name</h2>
+        <h2 class="text-labels lname">Last Name</h2>
+        <br />
+        <input type="text" id="fname" name="fname" />
+        <input type="text" id="lname" name="lname" /><br />
+        <h2 class="text-labels email">E-mail address</h2>
+        <br />
+        <input type="text" id="email-address" name="email-address" /><br />
+        <h2 class="text-labels number">Phone number</h2>
+        <br />
+        <input type="number" name="phone-number" id="phone-number" /><br />
+        <input type="submit" value="Submit information" </div>
+    </form>
+
+  </main>
+</body>
+
 </html>
